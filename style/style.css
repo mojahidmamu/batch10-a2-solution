@@ -161,11 +161,40 @@
   margin-left: 20px;
   margin-top: -90px;
 }
-
-
-
-
-
+.footer{
+  background-color: darkolivegreen;
+  width: 100%;
+  height: auto;
+  margin-left: -100px;
+  padding: 150px;
+  margin-top: 20px;
+  display: flex;
+  gap: 100px;
+}
+.container-7{
+  margin-top: -120px;
+}
+.container-7 h1{
+   color: chocolate;
+   font-size: 3rem;
+}
+.container-8{
+  margin-top: -90px;
+}
+.container-8 h3{
+  color: white;
+}
+.container-9{
+  margin-top: -90px;
+}
+.container-9 h3{
+  color: white;
+}
+.last-line{
+  margin-top: -50px;
+  text-align: center;
+  
+}
 /* responsive header */
 @media screen and (max-width: 576px) { 
    .navbar{
@@ -202,31 +231,33 @@
 
 /* responsive first section */
 @media screen and (max-width: 576px) { 
-   .first-section{
-     flex-direction: column;
-     height: auto;
-     margin-left: 120px;
-     width: 100%;
-   }
-   .first-section img{
-     height: auto;
-     width: 100%;
-     margin-left: -0px;
-   }
-   .first-section h1{
-    text-align: center;
-    margin-left: -50px;
-   }
-   .btn-6{
-    width: 330px;
-    height: 60px;
-    margin-left: -80px;
-   }
-   .sub-content-1{
-    margin-left: -50px;
-   }
-   .container-6{
+  .first-section{
+    flex-direction: column;
+    height: auto;
+    margin-left: 120px;
+    width: 100%;
+  }
+  .first-section img{
+    height: auto;
+    width: 100%;
+    margin-left: -0px;
+  }
+  .first-section h1{
+   text-align: center;
+   margin-left: -50px;
+  }
+  .btn-6{
+   width: 330px;
+   height: 60px;
+   margin-left: -80px;
+  }
+  .sub-content-1{
+   margin-left: -50px;
+  }
+  .container-6{
 }
+}
+    
 
 /* responsive second section */
 @media screen and (max-width: 576px) {
