@@ -74,13 +74,13 @@
    width: 150px;
    background-color: dimgray;
 }
-.btn-4{
+.gallery-1{
   margin-left: 620px;
-  margin-top: -100px;
+  margin-top: -140px;
 }
-.btn-5{
-  margin-left: 890px;
-  margin-top: -8000px;
+.gallery-2{
+  margin-left: 900px;
+  margin-top: -380px;
 }
 .btn-6{
   background-color: chocolate;
@@ -95,6 +95,7 @@
 }
 .container-3{
   text-align: center;
+  margin-top: 400px;
 }
 .container-4{
    display: flex;
@@ -214,6 +215,9 @@
       width: 160px;
       height: 50px;
    }
+   .nav-links{
+    margin-left: -40px;
+   }
 }
 
  /* responsive main section */
@@ -234,7 +238,7 @@
   .first-section{
     flex-direction: column;
     height: auto;
-    margin-left: 120px;
+    margin-left: 20px;
     width: 100%;
   }
   .first-section img{
@@ -254,11 +258,8 @@
   .sub-content-1{
    margin-left: -50px;
   }
-  .container-6{
 }
-}
-    
-
+  
 /* responsive second section */
 @media screen and (max-width: 576px) {
   .second-section{
@@ -272,10 +273,15 @@
     margin-left: 40px;
  }
 }
+
 /* responsive footer  */
 @media screen and (max-width: 576px) {
-  
-
+  .footer{
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin-left: 2px;
+  }
 
 }
 
